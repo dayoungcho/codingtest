@@ -8,3 +8,11 @@ def solution(num_list):
             odd += 1
     answer = [even, odd]
     return answer
+
+
+# 다른 풀이
+# def solution(num_list):
+#     answer = [0,0]
+#     for i in num_list:
+#         answer[i%2] += 1
+#     return answer
