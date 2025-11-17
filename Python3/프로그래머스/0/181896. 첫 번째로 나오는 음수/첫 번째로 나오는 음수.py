@@ -11,3 +11,14 @@ def solution(num_list):
     if check > 0:
         answer = -1
     return answer
+
+
+# 좀 더 나은답..
+
+def solution(num_list):
+    answer = -1
+    for i in range(len(num_list)):
+        if num_list[i] < 0:
+            answer = i
+            break
+    return answer
