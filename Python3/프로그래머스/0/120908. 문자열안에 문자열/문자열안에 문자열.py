@@ -6,3 +6,8 @@ def solution(str1, str2):
     else:
         answer=2
     return answer
+
+# 다른 풀이
+# def solution(str1, str2):
+#     answer = 1 if str2 in str1 else 2
+#     return answer
