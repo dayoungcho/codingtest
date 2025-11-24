@@ -19,3 +19,10 @@ def solution(code):
     if ret == '':
         ret = "EMPTY"
     return ret
+
+
+
+# 천재풀이
+
+def solution(code):
+    return "".join(code.split("1"))[::2] or "EMPTY"
