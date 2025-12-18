@@ -43,4 +43,11 @@
 
 # 기타 알아야겠다 싶은 것들
 - EOF(End Of File) 처리
+  ```python
+  while True:
+     try:
+        # 하고 싶은 작업
+     except EOFError:
+        break
+  ```
 - 
