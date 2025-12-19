@@ -35,7 +35,14 @@
 #### ex) 백준 2609. 최대공약수와 최소공배수 <br>
 두 개의 자연수를 입력받아 최대 공약수와 최소 공배수를 출력하는 프로그램을 작성하시오.
 ```python
-
+a, b = map(int, input().split())
+mul = a*b
+while True:
+  a, b = b, a%b
+  if b==0:
+    break
+print(a)
+print(int(mul/a))
 ```
 
 ### 완전탐색(Brute-force Search)
