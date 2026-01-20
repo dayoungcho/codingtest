@@ -28,6 +28,7 @@ print(num_list)  # [1,1,2,2,3,3,4,5,5,7]
    - Quick Sort
    - Heap Sort
    - Insertion Sort
+   - Counting Sort
 ## 2. 자료구조
    - Binary Tree
    - B-Tree
