@@ -5,6 +5,23 @@
 
 # 코딩테스트를 위한 주요 알고리즘
 ## 1. 정렬 알고리즘
+   - Selection Sort
+        <br>가장 작은 데이터를 선택해 맨 앞에 있는 데이터와 바꾸고, 그 다음 작은 데이터를 선택해 앞에서 두 번째 데이터와 바꾸고, .... 이 과정을 반복
+
+```python
+num_list = [5,2,3,1,4,2,3,5,1,7]
+n = len(num_list)
+
+for i in range(n):
+   min_index = i
+   for j in range(i+1,n):
+      if num_list[j] < num_list[i]:
+         min_index = j
+   num_list[i], num_list[min_index] = num_list[min_index], num_list[i]
+print(num_list)  # [1,1,2,2,3,3,4,5,5,7]
+```
+
+
    - Merge Sort
    - Bubble Sort
    - Quick Sort
